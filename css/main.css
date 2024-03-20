@@ -1,0 +1,2102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+
+body {
+  width: 1366px;
+  z-index: -10;
+  margin: 0 auto;
+ }
+
+@font-face {
+  font-family: "Inter-Black";
+  src: url("../assets/fonts/Inter-Black.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../assets/fonts/Inter-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("../assets/fonts/Inter-ExtraBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../assets/fonts/Inter-SemiBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../assets/fonts/Inter-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../assets/fonts/Inter-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("../assets/fonts/ProximaNova-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url("../assets/fonts/ProximaNova-Semibold.ttf") format("truetype"); }
+
+
+
+
+header {
+  width: 1366px;
+  height: 5305px; }
+  header .imggamburger {
+    position: absolute;
+    width: 800px;
+    margin-top: 148px;
+    margin-left: 530px; }
+  header .navbar {
+    width: 1366px;
+    display: flex; }
+    header .navbar .fon1 {
+      position: absolute;
+      width: 571px;
+      height: 800px;
+      margin-left: 795px;
+      background: #800A7A;
+      z-index: -1; }
+    header .navbar .nav1 {
+      display: flex; }
+      header .navbar .nav1 .iconMax {
+        width: 52px;
+        height: 55px;
+        margin-top: 23px;
+        margin-left: 128px;
+       }
+      header .navbar .nav1 ul {
+        list-style: none;
+        display: flex;
+        margin-left: 314px; }
+        header .navbar .nav1 ul .menyuTX {
+          margin-top: 42px; }
+        header .navbar .nav1 ul .bollarTX {
+          margin-top: 42px;
+          margin-left: 40px; }
+        header .navbar .nav1 ul .FiliaTX {
+          margin-top: 42px;
+          margin-left: 40px; }
+        header .navbar .nav1 ul a {
+          text-decoration: none;
+          font-family: 'Inter-Medium', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #222124; }
+    header .navbar .nav2 {
+      display: flex; }
+      header .navbar .nav2 .iconPhone {
+        width: 24px;
+        height: 24px;
+        margin-top: 41px;
+        margin-left: 81px; }
+      header .navbar .nav2 .nv2-1 a {
+        text-decoration: none; }
+        header .navbar .nav2 .nv2-1 a ul {
+          list-style: none;
+          width: 136px;
+          height: 47px;
+          margin-left: 19px;
+          margin-top: 28px; }
+          header .navbar .nav2 .nv2-1 a ul .tel1 {
+            font-family: 'Inter-Regular', sans-serif;
+            color: #FFFFFF;
+            font-size: 11px;
+            opacity: 80%; }
+          header .navbar .nav2 .nv2-1 a ul .tel2 {
+            font-family: 'Inter-Medium', sans-serif;
+            color: #FFFFFF;
+            font-size: 24.5px; }
+      header .navbar .nav2 .liniya1 {
+        width: 1px;
+        height: 43px;
+        mix-blend-mode: normal;
+        opacity: 0.4;
+        border: 1px solid #FFFFFF;
+        margin-left: 40px;
+        margin-top: 28px; }
+      header .navbar .nav2 .qulpContainer .imgqulp {
+        margin-top: 38px;
+        margin-left: 39px; }
+      header .navbar .nav2 .qulpContainer .imgsqdumaloqsrc {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -10px; }
+      header .navbar .nav2 .qulpContainer .sp1 {
+        position: absolute;
+        font-family: 'Inter-SemiBold', sans-serif;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF;
+        margin-top: 34px;
+        margin-left: -3px; }
+      header .navbar .nav2 .nv2-2 a {
+        text-decoration: none; }
+        header .navbar .nav2 .nv2-2 a ul {
+          list-style: none;
+          margin-left: 19px;
+          margin-top: 28px; }
+          header .navbar .nav2 .nv2-2 a ul .koz1 {
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF; }
+          header .navbar .nav2 .nv2-2 a ul .koz2 {
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+            opacity: 80%; }
+  header .mn-1 .SizTX {
+    margin-top: 123px;
+    margin-left: 128px;
+    font-family: 'Inter-Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 85px;
+    width: 434px;
+    height: 255px;
+    /* or 106% */
+    list-style: none;
+    color: #222124; }
+  header .mn-1 .WhenTX {
+    font-family: 'Inter-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 397px;
+    height: 64px;
+    /* or 178% */
+    list-style: none;
+    margin-top: 14px;
+    margin-left: 128px;
+    color: #222124; }
+  header .mn-1 .cr-1 {
+    display: flex; }
+  header .mn-1 .conPizza {
+    width: 255px;
+    height: 200px;
+    background: linear-gradient(315.49deg, #FFC85C 1.32%, #F1B301 96.68%);
+    border-radius: 12px;
+    margin-top: 66px;
+    margin-left: 117px;
+    border: 1px solid #F1B301; }
+    header .mn-1 .conPizza .imgyarimpiz {
+      position: absolute;
+      margin-left: 101px;
+      margin-top: 50px;
+      border-bottom-right-radius: 12px; }
+    header .mn-1 .conPizza .but-1 {
+      width: 119px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.203344);
+      border-radius: 19px;
+      border: 0px solid;
+      margin-top: 20px;
+      margin-left: 31px;
+      display: flex; }
+      header .mn-1 .conPizza .but-1 .imgolov {
+        margin-top: 6px;
+        margin-left: 22px; }
+      header .mn-1 .conPizza .but-1 .sp2 {
+        margin-top: 11px;
+        margin-left: 11px;
+        font-family: 'Inter-Medium', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF; }
+    header .mn-1 .conPizza .pit-sa {
+      font-family: 'Inter-Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 32px;
+      list-style: none;
+      color: #E76A06;
+      width: 80px;
+      height: 65px;
+      margin-top: 56px;
+      margin-left: 40px; }
+      header .mn-1 .conPizza .pit-sa .sa {
+        margin-left: 15px; }
+  header .mn-1 .conSenWitch {
+    width: 255px;
+    height: 200px;
+    background: #800A7A;
+    border-radius: 12px;
+    margin-top: 66px;
+    border: 1px solid #800A7A;
+    margin-left: 41px; }
+    header .mn-1 .conSenWitch .imgsenwitch {
+      position: absolute;
+      border-bottom-right-radius: 12px;
+      margin-left: 106px;
+      margin-top: 47px; }
+    header .mn-1 .conSenWitch .but-2 {
+      width: 174px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.203344);
+      border-radius: 19px;
+      border: 0px solid;
+      margin-top: 20px;
+      margin-left: 20px;
+      display: flex; }
+      header .mn-1 .conSenWitch .but-2 .imgolov {
+        margin-top: 6px;
+        margin-left: 22px; }
+      header .mn-1 .conSenWitch .but-2 .sp2 {
+        margin-top: 11px;
+        margin-left: 11px;
+        font-family: 'Inter-Medium', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF; }
+    header .mn-1 .conSenWitch .pit-sa {
+      font-family: 'Inter-Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 32px;
+      list-style: none;
+      color: #E76A06;
+      width: 104px;
+      height: 64px;
+      margin-top: 56px;
+      margin-left: 40px; }
+      header .mn-1 .conSenWitch .pit-sa .kom {
+        margin-left: 23px; }
+  header .liniya2 {
+    width: 1109px;
+    height: 1px;
+    margin-top: 79.5px;
+    margin-left: 129px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 1px solid #979797; }
+  header .navbar2 {
+    display: flex; }
+    header .navbar2 .but-3 {
+      width: 134px;
+      height: 54px;
+      background: #F1B301;
+      border-radius: 27px;
+      border: 0px #F1B301;
+      margin-top: 39.5px;
+      margin-left: 128px; }
+      header .navbar2 .but-3 .sp3 {
+        font-family: 'Inter-Regular', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF; }
+    header .navbar2 ul {
+      display: flex;
+      width: 720px;
+      margin-top: 54.5px;
+      list-style: none;
+      justify-content: space-between;
+      margin-left: 34px; }
+      header .navbar2 ul a {
+        text-decoration: none;
+        font-family: 'Inter-Regular', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #222124; }
+    header .navbar2 .but-4 {
+      width: 160px;
+      height: 54px;
+      background: #F5F5F5;
+      border-radius: 27px;
+      border: 0px solid #F5F5F5;
+      display: flex;
+      margin-top: 39.5px;
+      margin-left: 63px; }
+      header .navbar2 .but-4 .iconfiltr {
+        margin-top: 17px;
+        margin-left: 44px; }
+      header .navbar2 .but-4 .sp4 {
+        margin-top: 15px;
+        margin-left: 16px;
+        font-family: 'Inter-Regular', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #222124; }
+  header .menu-con .pitsa {
+    width: 128px;
+    height: 63px;
+    font-family: 'Inter-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    color: #222124;
+    margin-top: 105px;
+    margin-left: 128px; }
+  header .menu-con .karobka1 {
+    display: flex; }
+    header .menu-con .karobka1 .sec-1 a {
+      text-decoration: none; }
+      header .menu-con .karobka1 .sec-1 a .menu-1 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka1 .sec-1 a .menu-1 .imgP1 {
+          background-image: url("../assets/imgs/GavayaPitsa.svg");
+          width: 180px;
+          height: 180px;
+          margin-top: 30px;
+          margin-left: 30px; }
+          header .menu-con .karobka1 .sec-1 a .menu-1 .imgP1 .blur1 {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px; }
+            header .menu-con .karobka1 .sec-1 a .menu-1 .imgP1 .blur1 img {
+              margin-top: 9px;
+              margin-left: 13px; }
+        header .menu-con .karobka1 .sec-1 a .menu-1 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka1 .sec-1 a .menu-1 .art1 .nameAnDsir .MenuTX1 {
+            width: 151px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-1 a .menu-1 .art1 .nameAnDsir .sir {
+            width: 24px;
+            height: 24px;
+            margin-top: 30px;
+            margin-left: 17px; }
+        header .menu-con .karobka1 .sec-1 a .menu-1 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka1 .sec-1 a .menu-1 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-1 a .menu-1 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 41px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka1 .sec-1 a .menu-1 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka1 .sec-1 a {
+      text-decoration: none; }
+      header .menu-con .karobka1 .sec-1 a .menu-2 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka1 .sec-1 a .menu-2 .imgP1 {
+          background-image: url("../assets/imgs/Hot Acchiko pitsa.svg");
+          width: 180px;
+          height: 180px;
+          margin-top: 30px;
+          margin-left: 30px; }
+          header .menu-con .karobka1 .sec-1 a .menu-2 .imgP1 .blur1 {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px; }
+            header .menu-con .karobka1 .sec-1 a .menu-2 .imgP1 .blur1 img {
+              margin-top: 9px;
+              margin-left: 13px; }
+        header .menu-con .karobka1 .sec-1 a .menu-2 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka1 .sec-1 a .menu-2 .art1 .nameAnDsir .MenuTX1 {
+            width: 151px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-1 a .menu-2 .art1 .nameAnDsir .sir {
+            width: 24px;
+            height: 24px;
+            margin-top: 30px;
+            margin-left: 17px; }
+        header .menu-con .karobka1 .sec-1 a .menu-2 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka1 .sec-1 a .menu-2 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-1 a .menu-2 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 41px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka1 .sec-1 a .menu-2 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka1 .sec-1 a {
+      text-decoration: none; }
+      header .menu-con .karobka1 .sec-1 a .menu-3 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka1 .sec-1 a .menu-3 .imgP1 {
+          background-image: url("../assets/imgs/Hot Acchiko pitsa.svg");
+          width: 180px;
+          height: 180px;
+          margin-top: 30px;
+          margin-left: 30px; }
+          header .menu-con .karobka1 .sec-1 a .menu-3 .imgP1 .blur1 {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px; }
+            header .menu-con .karobka1 .sec-1 a .menu-3 .imgP1 .blur1 img {
+              margin-top: 9px;
+              margin-left: 13px; }
+        header .menu-con .karobka1 .sec-1 a .menu-3 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka1 .sec-1 a .menu-3 .art1 .nameAnDsir .MenuTX1 {
+            width: 115px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-1 a .menu-3 .art1 .nameAnDsir .sir {
+            width: 24px;
+            height: 25px;
+            margin-top: 27px;
+            margin-left: 16px; }
+        header .menu-con .karobka1 .sec-1 a .menu-3 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka1 .sec-1 a .menu-3 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-1 a .menu-3 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 41px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka1 .sec-1 a .menu-3 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka1 .sec-1 a {
+      text-decoration: none; }
+      header .menu-con .karobka1 .sec-1 a .menu-4 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka1 .sec-1 a .menu-4 .imgP1 {
+          background-image: url("../assets/imgs/Hot Acchiko pitsa.svg");
+          width: 180px;
+          height: 180px;
+          margin-top: 30px;
+          margin-left: 30px; }
+          header .menu-con .karobka1 .sec-1 a .menu-4 .imgP1 .blur1 {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px; }
+            header .menu-con .karobka1 .sec-1 a .menu-4 .imgP1 .blur1 img {
+              margin-top: 9px;
+              margin-left: 13px; }
+        header .menu-con .karobka1 .sec-1 a .menu-4 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka1 .sec-1 a .menu-4 .art1 .nameAnDsir .MenuTX1 {
+            width: 82px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 41px; }
+        header .menu-con .karobka1 .sec-1 a .menu-4 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka1 .sec-1 a .menu-4 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-1 a .menu-4 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 41px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka1 .sec-1 a .menu-4 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka1 .sec-1 .menu-1:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka1 .sec-1 .menu-1 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka1 .sec-1 .menu-2:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka1 .sec-1 .menu-2 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka1 .sec-1 .menu-3:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka1 .sec-1 .menu-3 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka1 .sec-1 .menu-4:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka1 .sec-1 .menu-4 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka1 .sec-2 a {
+      text-decoration: none; }
+      header .menu-con .karobka1 .sec-2 a .menu-5 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px; }
+        header .menu-con .karobka1 .sec-2 a .menu-5 .imgP1 {
+          background-image: url("../assets/imgs/Hot Acchiko pitsa.svg");
+          width: 180px;
+          height: 180px;
+          margin-top: 30px;
+          margin-left: 30px; }
+          header .menu-con .karobka1 .sec-2 a .menu-5 .imgP1 .blur1 {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px; }
+            header .menu-con .karobka1 .sec-2 a .menu-5 .imgP1 .blur1 img {
+              margin-top: 9px;
+              margin-left: 13px; }
+        header .menu-con .karobka1 .sec-2 a .menu-5 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka1 .sec-2 a .menu-5 .art1 .nameAnDsir .MenuTX1 {
+            width: 82px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-2 a .menu-5 .art1 .nameAnDsir .sir {
+            width: 24px;
+            height: 25px;
+            margin-top: 27px;
+            margin-left: 16px; }
+        header .menu-con .karobka1 .sec-2 a .menu-5 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka1 .sec-2 a .menu-5 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-2 a .menu-5 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 41px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka1 .sec-2 a .menu-5 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka1 .sec-2 a {
+      text-decoration: none; }
+      header .menu-con .karobka1 .sec-2 a .menu-6 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px; }
+        header .menu-con .karobka1 .sec-2 a .menu-6 .imgP1 {
+          background-image: url("../assets/imgs/Mexica.svg");
+          width: 180px;
+          height: 180px;
+          margin-top: 30px;
+          margin-left: 30px; }
+          header .menu-con .karobka1 .sec-2 a .menu-6 .imgP1 .blur1 {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px; }
+            header .menu-con .karobka1 .sec-2 a .menu-6 .imgP1 .blur1 img {
+              margin-top: 9px;
+              margin-left: 13px; }
+        header .menu-con .karobka1 .sec-2 a .menu-6 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka1 .sec-2 a .menu-6 .art1 .nameAnDsir .MenuTX1 {
+            width: 82px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-2 a .menu-6 .art1 .nameAnDsir .sir {
+            width: 24px;
+            height: 25px;
+            margin-top: 27px;
+            margin-left: 16px; }
+        header .menu-con .karobka1 .sec-2 a .menu-6 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka1 .sec-2 a .menu-6 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-2 a .menu-6 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 41px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka1 .sec-2 a .menu-6 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka1 .sec-2 a {
+      text-decoration: none; }
+      header .menu-con .karobka1 .sec-2 a .menu-7 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px; }
+        header .menu-con .karobka1 .sec-2 a .menu-7 .imgP1 {
+          background-image: url("../assets/imgs/Mexica.svg");
+          width: 180px;
+          height: 180px;
+          margin-top: 30px;
+          margin-left: 30px; }
+          header .menu-con .karobka1 .sec-2 a .menu-7 .imgP1 .blur1 {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px; }
+            header .menu-con .karobka1 .sec-2 a .menu-7 .imgP1 .blur1 img {
+              margin-top: 9px;
+              margin-left: 13px; }
+        header .menu-con .karobka1 .sec-2 a .menu-7 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka1 .sec-2 a .menu-7 .art1 .nameAnDsir .MenuTX1 {
+            width: 151px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-2 a .menu-7 .art1 .nameAnDsir .sir {
+            width: 24px;
+            height: 24px;
+            margin-top: 30px;
+            margin-left: 17px; }
+        header .menu-con .karobka1 .sec-2 a .menu-7 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka1 .sec-2 a .menu-7 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 41px; }
+          header .menu-con .karobka1 .sec-2 a .menu-7 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 41px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka1 .sec-2 a .menu-7 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka1 .sec-2 .menu-5:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka1 .sec-2 .menu-5 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka1 .sec-2 .menu-6:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka1 .sec-2 .menu-6 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka1 .sec-2 .menu-7:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka1 .sec-2 .menu-7 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+  header .menu-con .Burger {
+    width: 128px;
+    height: 63px;
+    font-family: 'Inter-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    color: #222124;
+    margin-top: 105px;
+    margin-left: 128px; }
+  header .menu-con .karobka2 {
+    display: flex; }
+    header .menu-con .karobka2 .sec-3 a {
+      text-decoration: none; }
+      header .menu-con .karobka2 .sec-3 a .menu-8 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka2 .sec-3 a .menu-8 .imgP1 {
+          background-image: url("../assets/imgs/burgimg.svg");
+          background-repeat: no-repeat;
+          width: 209px;
+          height: 192px;
+          margin-top: 16px;
+          margin-left: 21px; }
+          header .menu-con .karobka2 .sec-3 a .menu-8 .imgP1 .blur1 {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px;
+            margin-top: 14px;
+            margin-left: 9px;
+            z-index: 5;
+            position: absolute; }
+            header .menu-con .karobka2 .sec-3 a .menu-8 .imgP1 .blur1 img {
+              margin-top: 9px;
+              margin-left: 13px; }
+        header .menu-con .karobka2 .sec-3 a .menu-8 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka2 .sec-3 a .menu-8 .art1 .nameAnDsir .MenuTX1 {
+            width: 164px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+          header .menu-con .karobka2 .sec-3 a .menu-8 .art1 .nameAnDsir .sir {
+            width: 24px;
+            height: 24px;
+            margin-top: 30px;
+            margin-left: 16px; }
+        header .menu-con .karobka2 .sec-3 a .menu-8 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka2 .sec-3 a .menu-8 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka2 .sec-3 a .menu-8 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka2 .sec-3 a .menu-8 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+      header .menu-con .karobka2 .sec-3 a .menu-9 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka2 .sec-3 a .menu-9 .imgP1 {
+          background-image: url("../assets/imgs/burgimg.svg");
+          background-repeat: no-repeat;
+          width: 209px;
+          height: 192px;
+          margin-top: 16px;
+          margin-left: 21px; }
+          header .menu-con .karobka2 .sec-3 a .menu-9 .imgP1 .blur1 {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.249235);
+            box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+            backdrop-filter: blur(4.07742px);
+            border-radius: 25px;
+            margin-top: 14px;
+            margin-left: 9px;
+            z-index: 5;
+            position: absolute; }
+            header .menu-con .karobka2 .sec-3 a .menu-9 .imgP1 .blur1 img {
+              margin-top: 9px;
+              margin-left: 13px; }
+        header .menu-con .karobka2 .sec-3 a .menu-9 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka2 .sec-3 a .menu-9 .art1 .nameAnDsir .MenuTX1 {
+            width: 129px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+          header .menu-con .karobka2 .sec-3 a .menu-9 .art1 .nameAnDsir .sir {
+            width: 24px;
+            height: 24px;
+            margin-top: 30px;
+            margin-left: 16px; }
+        header .menu-con .karobka2 .sec-3 a .menu-9 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka2 .sec-3 a .menu-9 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka2 .sec-3 a .menu-9 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka2 .sec-3 a .menu-9 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka2 .sec-3 .menu-8:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka2 .sec-3 .menu-8 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka2 .sec-3 .menu-9:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka2 .sec-3 .menu-9 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka2 .sec-4 a {
+      text-decoration: none; }
+      header .menu-con .karobka2 .sec-4 a .menu-10 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px; }
+        header .menu-con .karobka2 .sec-4 a .menu-10 .imgP1 {
+          background-image: url("../assets/imgs/burgimg.svg");
+          background-repeat: no-repeat;
+          width: 209px;
+          height: 192px;
+          margin-top: 16px;
+          margin-left: 21px; }
+        header .menu-con .karobka2 .sec-4 a .menu-10 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka2 .sec-4 a .menu-10 .art1 .nameAnDsir .MenuTX1 {
+            width: 134px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+          header .menu-con .karobka2 .sec-4 a .menu-10 .art1 .nameAnDsir .sir {
+            width: 24px;
+            height: 28px;
+            margin-top: 30px;
+            margin-left: 17px; }
+        header .menu-con .karobka2 .sec-4 a .menu-10 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka2 .sec-4 a .menu-10 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka2 .sec-4 a .menu-10 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka2 .sec-4 a .menu-10 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+      header .menu-con .karobka2 .sec-4 a .menu-11 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px; }
+        header .menu-con .karobka2 .sec-4 a .menu-11 .imgP1 {
+          background-image: url("../assets/imgs/burgimg.svg");
+          background-repeat: no-repeat;
+          width: 209px;
+          height: 192px;
+          margin-top: 16px;
+          margin-left: 21px; }
+        header .menu-con .karobka2 .sec-4 a .menu-11 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka2 .sec-4 a .menu-11 .art1 .nameAnDsir .MenuTX1 {
+            width: 165px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+        header .menu-con .karobka2 .sec-4 a .menu-11 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka2 .sec-4 a .menu-11 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka2 .sec-4 a .menu-11 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka2 .sec-4 a .menu-11 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka2 .sec-4 .menu-10:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka2 .sec-4 .menu-10 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka2 .sec-4 .menu-11:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka2 .sec-4 .menu-11 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+  header .menu-con .Kombo {
+    margin-top: 105px;
+    margin-left: 128px;
+    font-family: 'Inter-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    color: #222124; }
+  header .menu-con .karobka3 {
+    display: flex; }
+    header .menu-con .karobka3 .sec-5 a {
+      text-decoration: none; }
+      header .menu-con .karobka3 .sec-5 a .menu-12 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka3 .sec-5 a .menu-12 .imgP1 {
+          background-image: url("../assets/imgs/KomBo1.svg");
+          background-repeat: no-repeat;
+          width: 183px;
+          height: 192px;
+          margin-top: 16px;
+          margin-left: 21px; }
+        header .menu-con .karobka3 .sec-5 a .menu-12 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka3 .sec-5 a .menu-12 .art1 .nameAnDsir .MenuTX1 {
+            width: 103px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+        header .menu-con .karobka3 .sec-5 a .menu-12 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka3 .sec-5 a .menu-12 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka3 .sec-5 a .menu-12 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka3 .sec-5 a .menu-12 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+      header .menu-con .karobka3 .sec-5 a .menu-13 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka3 .sec-5 a .menu-13 .imgP1 {
+          background-image: url("../assets/imgs/KomBo1.svg");
+          background-repeat: no-repeat;
+          width: 183px;
+          height: 192px;
+          margin-top: 16px;
+          margin-left: 21px; }
+        header .menu-con .karobka3 .sec-5 a .menu-13 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka3 .sec-5 a .menu-13 .art1 .nameAnDsir .MenuTX1 {
+            width: 107px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+        header .menu-con .karobka3 .sec-5 a .menu-13 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka3 .sec-5 a .menu-13 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka3 .sec-5 a .menu-13 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka3 .sec-5 a .menu-13 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka3 .sec-5 .menu-12:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka3 .sec-5 .menu-12 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka3 .sec-5 .menu-13:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka3 .sec-5 .menu-13 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka3 .sec-6 a {
+      text-decoration: none; }
+      header .menu-con .karobka3 .sec-6 a .menu-14 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px; }
+        header .menu-con .karobka3 .sec-6 a .menu-14 .imgP1 {
+          background-image: url("../assets/imgs/Kombo+Gam.svg");
+          background-repeat: no-repeat;
+          width: 192px;
+          height: 192px;
+          margin-top: 16px;
+          margin-left: 21px; }
+        header .menu-con .karobka3 .sec-6 a .menu-14 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka3 .sec-6 a .menu-14 .art1 .nameAnDsir .MenuTX1 {
+            width: 106px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+        header .menu-con .karobka3 .sec-6 a .menu-14 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka3 .sec-6 a .menu-14 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka3 .sec-6 a .menu-14 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka3 .sec-6 a .menu-14 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka3 .sec-6 .menu-14:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka3 .sec-6 .menu-14 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+  header .menu-con .Ichimlik {
+    margin-top: 105px;
+    margin-left: 128px;
+    width: 264px;
+    height: 63px;
+    font-family: 'Inter-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    color: #222124; }
+  header .menu-con .karobka4 {
+    display: flex; }
+    header .menu-con .karobka4 .sec-5 a {
+      text-decoration: none; }
+      header .menu-con .karobka4 .sec-5 a .menu-15 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka4 .sec-5 a .menu-15 .imgP1 {
+          background-image: url("../assets/imgs/Sprite.svg");
+          background-repeat: no-repeat;
+          width: 186px;
+          height: 186px;
+          margin-top: 30px;
+          margin-left: 22px; }
+        header .menu-con .karobka4 .sec-5 a .menu-15 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka4 .sec-5 a .menu-15 .art1 .nameAnDsir .MenuTX1 {
+            width: 100px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+        header .menu-con .karobka4 .sec-5 a .menu-15 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka4 .sec-5 a .menu-15 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka4 .sec-5 a .menu-15 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka4 .sec-5 a .menu-15 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+      header .menu-con .karobka4 .sec-5 a .menu-16 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 128px; }
+        header .menu-con .karobka4 .sec-5 a .menu-16 .imgP1 {
+          background-image: url("../assets/imgs/Fanta.svg");
+          background-repeat: no-repeat;
+          width: 183px;
+          height: 183px;
+          margin-top: 30px;
+          margin-left: 25px; }
+        header .menu-con .karobka4 .sec-5 a .menu-16 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka4 .sec-5 a .menu-16 .art1 .nameAnDsir .MenuTX1 {
+            width: 96px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+        header .menu-con .karobka4 .sec-5 a .menu-16 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka4 .sec-5 a .menu-16 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka4 .sec-5 a .menu-16 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka4 .sec-5 a .menu-16 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka4 .sec-5 .menu-15:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka4 .sec-5 .menu-15 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka4 .sec-5 .menu-16:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka4 .sec-5 .menu-16 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+    header .menu-con .karobka4 .sec-6 a {
+      text-decoration: none; }
+      header .menu-con .karobka4 .sec-6 a .menu-17 {
+        width: 540px;
+        height: 230px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        border-radius: 12px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px; }
+        header .menu-con .karobka4 .sec-6 a .menu-17 .imgP1 {
+          background-image: url("../assets/imgs/Cola.svg");
+          background-repeat: no-repeat;
+          width: 186px;
+          height: 186px;
+          margin-top: 30px;
+          margin-left: 32px; }
+        header .menu-con .karobka4 .sec-6 a .menu-17 .art1 .nameAnDsir {
+          display: flex; }
+          header .menu-con .karobka4 .sec-6 a .menu-17 .art1 .nameAnDsir .MenuTX1 {
+            width: 167px;
+            height: 29px;
+            font-family: 'Inter-Medium', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124;
+            margin-top: 30px;
+            margin-left: 21px; }
+        header .menu-con .karobka4 .sec-6 a .menu-17 .art1 ul {
+          list-style: none; }
+          header .menu-con .karobka4 .sec-6 a .menu-17 .art1 ul .ZakuskaTX {
+            width: 212px;
+            height: 68px;
+            font-family: 'Inter-Regular', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222124;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-top: 10px;
+            margin-left: 21px; }
+          header .menu-con .karobka4 .sec-6 a .menu-17 .art1 ul .Narx1 {
+            margin-top: 24px;
+            margin-left: 21px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #222124; }
+        header .menu-con .karobka4 .sec-6 a .menu-17 .but-5 {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0px solid #F1B301;
+          background: #F1B301;
+          margin-top: 150px;
+          margin-left: 460px; }
+    header .menu-con .karobka4 .sec-6 .menu-17:hover {
+      box-shadow: 1px 1px 15px 1px #730666; }
+    header .menu-con .karobka4 .sec-6 .menu-17 .but-5:hover {
+      scale: 1.1;
+      cursor: pointer; }
+  header .menu-con .karobka5telik {
+    width: 1366px;
+    height: 501px;
+    margin-top: 173px;
+    background: #800A7A; }
+    header .menu-con .karobka5telik .imgtelsam {
+      position: absolute;
+      margin-top: -133px;
+      margin-left: 486px;
+      z-index: 1; }
+    header .menu-con .karobka5telik .sariqch {
+      position: absolute;
+      margin-top: 112px;
+      margin-left: 804px; }
+    header .menu-con .karobka5telik .Mobilov {
+      position: absolute;
+      margin-top: 75px;
+      margin-left: 128px;
+      width: 581px;
+      height: 189px;
+      font-family: 'Inter-Bold', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 63px;
+      color: #FFFFFF; }
+    header .menu-con .karobka5telik .cr-2 {
+      display: flex; }
+      header .menu-con .karobka5telik .cr-2 .ggb {
+        margin-top: 327px;
+        margin-left: 128px;
+        cursor: pointer; }
+        header .menu-con .karobka5telik .cr-2 .ggb .but-6 {
+          width: 250px;
+          height: 80px;
+          border: 1px solid rgba(255, 255, 255, 0.292941);
+          backdrop-filter: blur(13.5914px);
+          border-radius: 46px;
+          box-sizing: border-box;
+          background: #800A7A;
+          cursor: pointer; }
+          header .menu-con .karobka5telik .cr-2 .ggb .but-6 .goog {
+            width: 187.46px;
+            height: 44.29px;
+            cursor: pointer; }
+      header .menu-con .karobka5telik .cr-2 .ggb:hover {
+        scale: 1.1; }
+      header .menu-con .karobka5telik .cr-2 .ggb2 {
+        margin-top: 327px;
+        margin-left: 30px;
+        cursor: pointer; }
+        header .menu-con .karobka5telik .cr-2 .ggb2 .but-7 {
+          width: 250px;
+          height: 80px;
+          border: 1px solid rgba(255, 255, 255, 0.292941);
+          backdrop-filter: blur(13.5914px);
+          border-radius: 46px;
+          box-sizing: border-box;
+          background: #800A7A;
+          cursor: pointer; }
+          header .menu-con .karobka5telik .cr-2 .ggb2 .but-7 .app {
+            width: 182.72px;
+            height: 46.2px;
+            cursor: pointer; }
+      header .menu-con .karobka5telik .cr-2 .ggb2:hover {
+        scale: 1.1; }
+  header .footer {
+    margin-top: 124px; }
+    header .footer .footercard1 {
+      display: flex; }
+      header .footer .footercard1 .imglogoniz {
+        width: 52px;
+        height: 55px;
+        margin-top: 1px;
+        margin-left: 128px; }
+      header .footer .footercard1 .ft-1 {
+        margin-left: 138px; }
+        header .footer .footercard1 .ft-1 .foot-text1 {
+          font-family: 'ProximaNova-Semibold',sans-serif;
+          font-size: 20px;
+          line-height: 18px;
+          color: #003846;
+          text-decoration: none; }
+        header .footer .footercard1 .ft-1 .foot-text1:hover {
+          color: red; }
+        header .footer .footercard1 .ft-1 .foot1con {
+          list-style: none;
+          margin-top: 24px; }
+          header .footer .footercard1 .ft-1 .foot1con a {
+            text-decoration: none; }
+          header .footer .footercard1 .ft-1 .foot1con .foot-text2 {
+            font-family: 'ProximaNova-Regular',sans-serif;
+            font-size: 14px;
+            line-height: 34px;
+            color: #222124;
+            margin-top: 24px; }
+          header .footer .footercard1 .ft-1 .foot1con .foot-text2:hover {
+            color: red; }
+          header .footer .footercard1 .ft-1 .foot1con .foot-text3 {
+            font-family: 'ProximaNova-Regular',sans-serif;
+            font-size: 14px;
+            line-height: 34px;
+            color: #222124; }
+          header .footer .footercard1 .ft-1 .foot1con .foot-text3:hover {
+            color: red; }
+      header .footer .footercard1 .ft-2 {
+        margin-left: 84px; }
+        header .footer .footercard1 .ft-2 .foot-text1 {
+          font-family: 'ProximaNova-Semibold',sans-serif;
+          font-size: 20px;
+          line-height: 18px;
+          color: #003846;
+          text-decoration: none; }
+        header .footer .footercard1 .ft-2 .foot-text1:hover {
+          color: red; }
+        header .footer .footercard1 .ft-2 .foot1con {
+          list-style: none;
+          margin-top: 24px; }
+          header .footer .footercard1 .ft-2 .foot1con a {
+            text-decoration: none; }
+          header .footer .footercard1 .ft-2 .foot1con .foot-text2 {
+            font-family: 'ProximaNova-Regular',sans-serif;
+            font-size: 14px;
+            line-height: 34px;
+            color: #222124;
+            margin-top: 24px; }
+          header .footer .footercard1 .ft-2 .foot1con .foot-text2:hover {
+            color: red; }
+          header .footer .footercard1 .ft-2 .foot1con .foot-text3 {
+            font-family: 'ProximaNova-Regular',sans-serif;
+            font-size: 14px;
+            line-height: 34px;
+            color: #222124; }
+          header .footer .footercard1 .ft-2 .foot1con .foot-text3:hover {
+            color: red; }
+      header .footer .footercard1 .ft-3 {
+        margin-left: 337px; }
+        header .footer .footercard1 .ft-3 .foot-text4 {
+          font-family: 'Inter-SemiBold',sans-serif;
+          font-size: 20px;
+          line-height: 18px;
+          color: #222124;
+          text-decoration: none; }
+        header .footer .footercard1 .ft-3 .foot-text4:hover {
+          color: red; }
+        header .footer .footercard1 .ft-3 .foot1con {
+          list-style: none;
+          margin-top: 33px; }
+          header .footer .footercard1 .ft-3 .foot1con a {
+            text-decoration: none; }
+          header .footer .footercard1 .ft-3 .foot1con .foot-text5 {
+            text-decoration: none; }
+            header .footer .footercard1 .ft-3 .foot1con .foot-text5 a {
+              font-family: 'Inter-Regular',sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 33px;
+              color: #222124; }
+          header .footer .footercard1 .ft-3 .foot1con .foot-text5 a:hover {
+            color: red; }
+          header .footer .footercard1 .ft-3 .foot1con .foot-text6 {
+            text-decoration: none;
+            margin-top: 13px; }
+            header .footer .footercard1 .ft-3 .foot1con .foot-text6 a {
+              width: 286px;
+              height: 48px;
+              margin-top: 13px;
+              font-family: 'Inter-Regular',sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 24px;
+              color: #222124;
+              mix-blend-mode: normal;
+              opacity: 0.7; }
+          header .footer .footercard1 .ft-3 .foot1con .foot-text6 a:hover {
+            color: red; }
+    header .footer .liniyafooter {
+      margin-left: 130px;
+      margin-top: 40px;
+      width: 1107px;
+      height: 1px;
+      mix-blend-mode: normal;
+      opacity: 0.3;
+      border: 1px solid #979797; }
+    header .footer .footercard2 {
+      margin-top: 27px;
+      display: flex; }
+      header .footer .footercard2 .c2020 {
+        margin-left: 130px;
+        font-family: 'ProximaNova-Regular',sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        color: #222124;
+        mix-blend-mode: normal;
+        opacity: 0.7; }
+      header .footer .footercard2 .imgsayt1 {
+        margin-left: 740px;
+        width: 24px;
+        height: 24px; }
+      header .footer .footercard2 .imgsayt2 {
+        margin-left: 26px;
+        width: 24px;
+        height: 24px; }
+      header .footer .footercard2 .imgsayt3 {
+        margin-left: 26px;
+        width: 24px;
+        height: 24px; }
+      header .footer .footercard2 .imgsayt4 {
+        margin-left: 26px;
+        width: 24px;
+        height: 24px; }
+      header .footer .footercard2 .imgsayt5 {
+        margin-left: 26px;
+        width: 19px;
+        height: 19px;
+        margin-top: 2px; }
+
+/*# sourceMappingURL=main.css.map */
+@media (max-width: 414px) {
+  .header {
+    display: none;
+  }
+
+  .header2 {
+    display: grid;
+  }
+
+  body {
+    width: 414px;
+    height: 5000px;
+  }
+
+  .imggamburger01 {
+    position: absolute;
+    margin-top: 114px;
+  }
+
+  .iconMax01 {
+    width: 51.49px;
+    height: 54.95px;
+    margin-top: 21px;
+    margin-left: 16px;
+  }
+
+  .fon3 {
+    position: absolute;
+    width: 414px;
+    height: 370px;
+    background: #800A7A;
+    margin-top: 233px;
+    z-index: -1;
+  }
+.SizTX01{
+  width: 274px;
+  height: 88px;
+  font-family: 'Inter-Black',sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 400px;
+  margin-left: 64px;
+  color: #FFFFFF;
+  list-style: none;
+}
+ .WhenTX01{
+   width: 296px;
+   height: 57px;
+   font-family: 'Inter-Regular',sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 12px;
+   margin-left: 53px;
+   list-style: none;
+ }
+ .cr-101{
+ }
+ .conPizza01{
+   width: 255px;
+   height: 200px;
+   background: linear-gradient(315.49deg, #FFC85C 1.32%, #F1B301 96.68%);
+   border-radius: 12px;
+   margin-top: 66px;
+   margin-left: 79.5px;
+   border: 1px solid #F1B301
+ }
+ .imgyarimpiz01{
+   position: absolute;
+   margin-left: 101px;
+   margin-top: 50px;
+   border-bottom-right-radius: 12px;
+ }
+ .but-101{
+   width: 119px;
+   height: 40px;
+   background: rgba(255, 255, 255, 0.203344);
+   border-radius: 19px;
+   border: 0px solid;
+   margin-top: 20px;
+   margin-left: 31px;
+   display: flex;
+ }
+ .imgolov01{
+   margin-top: 6px;
+   margin-left: 22px
+ }
+ .sp201{
+   margin-top: 11px;
+   margin-left: 11px;
+   font-family: 'Inter-Medium', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #FFFFFF
+ }
+ .pit-sa01{
+   font-family: 'Inter-Bold', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 32px;
+   list-style: none;
+   color: #E76A06;
+   width: 80px;
+   height: 65px;
+   margin-top: 56px;
+   margin-left: 40px;
+ }
+ .conSenWitch01{
+   width: 255px;
+   height: 200px;
+   background: #800A7A;
+   border-radius: 12px;
+   margin-top: 30px;
+   border: 1px solid #800A7A;
+   margin-left: 79.5px;
+ }
+ .imgsenwitch01{
+   position: absolute;
+   border-bottom-right-radius: 12px;
+   margin-left: 106px;
+   margin-top: 47px;
+ }
+  .but-201{
+    width: 174px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.203344);
+    border-radius: 19px;
+    border: 0px solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+  }
+  .imgolov01{
+    margin-top: 6px;
+    margin-left: 22px;
+  }
+  .sp201{
+    margin-top: 11px;
+    margin-left: 11px;
+    font-family: 'Inter-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF
+  }
+   .kom01{
+     margin-left: 23px;
+   }
+   .navbar201{
+     display: grid;
+   }
+   .but-301{
+     width: 134px;
+     height: 54px;
+     background: #F1B301;
+     border-radius: 27px;
+     border: 0px #F1B301;
+     margin-top: 39.5px;
+     margin-left: 128px;
+     display: none;
+   }
+   .but-301:hover{
+     display: block;
+   }
+    .navbar201 ul{
+      width: 720px;
+      margin-top: 54.5px;
+      list-style: none;
+      justify-content: space-between;
+      margin-left: 34px;
+    }
+    .navbar201 ul a{
+      text-decoration: none;
+      font-family: 'Inter-Regular', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #222124;
+    }
+    .sp301{
+      text-decoration: none;
+      font-family: 'Inter-Regular', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #222124;
+
+    }
+    .sp301:hover{
+      width: 85px;
+      height: 29px;
+      background: #F1B301;
+      padding: 5px 5px 5px 5px;
+      border-radius: 2px;
+      border:1px solid red;
+    }
+}
